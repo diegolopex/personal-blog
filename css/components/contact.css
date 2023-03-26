@@ -1,0 +1,29 @@
+.contact-summary__header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.contact-summary__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  text-align: left;
+  margin: 1em 0;
+}
+
+.select:first-child {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-container .contact-summary__checkbox p {
+  text-align: start;
+}

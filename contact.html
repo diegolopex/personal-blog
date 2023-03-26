@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Diego's Blog | Contact me</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-lg">
+        <nav class="navbar">
+          <input type="checkbox" id="check" />
+          <a
+            href="index.html"
+            class="navbar__logo heading-md semibold text-decoration-none"
+          >
+            <span>Diego López</span>
+            <label for="check" id="toggle-close">
+              <i class="ri-close-fill ri-sm"></i>
+            </label>
+
+            <label for="check" id="toggle-open">
+              <i class="ri-menu-fill ri-sm"></i>
+            </label>
+          </a>
+          <ul class="dropdown navbar__links list-style-none">
+            <li>
+              <a href="article.html" class="link text-md semibold">Articles</a>
+            </li>
+            <li>
+              <a href="portafolio.html" class="link text-md semibold"
+                >Portafolio</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="link text-md semibold">About</a>
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="btn btn--primary btn--sm text-decoration-none ml-4"
+              >
+                Contac Me
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section-md contact-summary">
+      <div class="container-lg">
+        <div class="contact-summary__header">
+          <h2 class="heading-lg semibold">Contact me</h2>
+          <p class="text-lg regular">
+            Looking to expand your team? Or do you need a web developer for a
+            specific project? If I can help you in any way don't hesitate to
+            fill this form.
+          </p>
+        </div>
+        <div class="form-container">
+          <div class="contact-summary__content">
+            <div>
+              <label class="overline text-xs light">
+                First name
+                <input
+                  class="input"
+                  type="text"
+                  name="username"
+                  placeholder="john"
+                />
+              </label>
+            </div>
+            <div>
+              <label class="overline text-xs light">
+                Last name
+                <input
+                  class="input"
+                  type="text"
+                  name="username"
+                  placeholder="Doe"
+                />
+              </label>
+            </div>
+            <div>
+              <label class="overline text-xs light">
+                email
+                <input
+                  class="input"
+                  type="email"
+                  name="username"
+                  placeholder="john@mail.com"
+                />
+              </label>
+            </div>
+            <div>
+              <label class="overline text-xs light">
+                company
+                <input
+                  class="input"
+                  type="text"
+                  name="username"
+                  placeholder="Company SA"
+                />
+              </label>
+            </div>
+            <div>
+              <label class="overline text-xs light">
+                phone
+                <input
+                  class="input"
+                  type="number"
+                  name="username"
+                  placeholder="962345888"
+                />
+              </label>
+            </div>
+            <div>
+              <label class="overline text-xs light">
+                country
+                <select class="select">
+                  <option selected disabled hidden>Select one option</option>
+                  <option value="1">Option one</option>
+                  <option value="2">Option two</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="contact-summary__checkbox">
+            <p class="text-xs light overline">How can i help you</p>
+            <div class="checkbox-group checkbox-group--vertical">
+              <div class="checkbox">
+                <input
+                  id="checkbox_1"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_1" class="text-sm light"
+                    >Job Offer</label
+                  >
+                  <span class="checkbox__message"
+                    >If you are looking to expand your team</span
+                  >
+                </div>
+              </div>
+              <div class="checkbox">
+                <input
+                  id="checkbox_2"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_2" class="text-sm light"
+                    >Project Offer</label
+                  >
+                  <span class="checkbox__message"
+                    >If you are looking to expand your team</span
+                  >
+                </div>
+              </div>
+              <div class="checkbox">
+                <input
+                  id="checkbox_3"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_3" class="text-sm light"
+                    >Collaboration</label
+                  >
+                  <span class="checkbox__message"
+                    >If you are looking to expand your teamt</span
+                  >
+                </div>
+              </div>
+              <div class="checkbox">
+                <input
+                  id="checkbox_2"
+                  name="checkbox_group_1"
+                  type="checkbox"
+                  class="checkbox__input"
+                />
+                <div>
+                  <label for="checkbox_2" class="text-sm light">Other</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn--primary w-full">Send</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container-lg footer__content">
+        <h2 class="heading-xl semibold footer__content__title">
+          Can I Help you?
+        </h2>
+        <button class="btn btn--primary">Get in touch!</button>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+@import url("global.css");
+
+@import url("components/header.css");
+@import url("components/footer.css");
+@import url("components/article.css");
+@import url("components/about.css");
+@import url("components/portafolio.css");
+@import url("components/contact.css");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}

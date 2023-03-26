@@ -1,0 +1,25 @@
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.badges {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+ 
+}
+
+.badges span{
+  padding: 2px 10px;
+  background-color: var(--color-primary-lighter);
+  border-radius: 0.625rem;
+}

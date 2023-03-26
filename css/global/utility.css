@@ -1,0 +1,67 @@
+.w-full {
+  width: 100%;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.overline {
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+.mono {
+  font-family: "Source Code Pro", monospace;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.pad-4 {
+  padding: 1.5rem !important;
+}
+
+.grg-4{
+  grid-row-gap: 1rem;
+}
+.text-align-center {
+  text-align: center;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-primary-dark {
+  color: var(--color-primary-dark);
+}
+
+.bg-color-secondary-light {
+  background-color: var(--color-secondary-light);
+}
+
+.bg-color-white {
+  background-color: #ffffff;
+}

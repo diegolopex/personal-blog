@@ -1,0 +1,60 @@
+.container-sm {
+  max-width: 640px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container,
+.container-md {
+  max-width: 768px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container-lg {
+  max-width: 1024px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container-xl {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+/* SECTION */
+
+.section-sm {
+  margin: 32px 0;
+}
+
+.section,
+.section-md {
+  margin: 48px 0;
+}
+
+.section-lg {
+  margin: 96px 0;
+}
+
+.section-xl {
+  margin: 144px 0;
+}
+
+.section-padding-sm {
+  padding: 32px 0;
+}
+
+.section-padding,
+.section-padding-md {
+  padding: 48px 0;
+}
+
+.section-padding-lg {
+  padding: 96px 0;
+}
+
+.section-padding-xl {
+  padding: 144px 0;
+}
